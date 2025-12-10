@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 639512755}
   - component: {fileID: 639512754}
   - component: {fileID: 639512758}
+  - component: {fileID: 639512759}
   m_Layer: 0
   m_Name: RedPlayer
   m_TagString: Untagged
@@ -286,6 +287,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuerzaMovimiento: 5
   tipoControl: 0
+--- !u!114 &639512759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639512753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5201e89cffbd99b4281604e84655dbb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 639512755}
+  otraBola: {fileID: 2090157988}
+  fuerza: 4.5
+  teclaEmpuje: 32
 --- !u!1 &1758551242
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +604,7 @@ GameObject:
   - component: {fileID: 2090157988}
   - component: {fileID: 2090157987}
   - component: {fileID: 2090157991}
+  - component: {fileID: 2090157992}
   m_Layer: 0
   m_Name: BluePlayer
   m_TagString: Untagged
@@ -741,6 +759,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuerzaMovimiento: 5
   tipoControl: 1
+--- !u!114 &2090157992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090157986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5201e89cffbd99b4281604e84655dbb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2090157988}
+  otraBola: {fileID: 639512755}
+  fuerza: 4.5
+  teclaEmpuje: 305
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
